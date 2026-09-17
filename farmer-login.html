@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Farmer Login | Smart Procurement Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page farmer-login" data-role="farmer">
+  <main class="login-shell">
+    <section class="login-intro">
+      <a class="brand-link" href="index.html"><span class="brand-mark">🌾</span><span>Smart Procurement</span></a>
+      <div class="intro-copy">
+        <span class="eyebrow">Farmer portal</span>
+        <h1>Sell with a clearer plan.</h1>
+        <p>Check your crop, compare nearby centres, and book a slot before you travel.</p>
+      </div>
+      <div class="intro-note"><span>✓</span><span>Simple, local, and built for every harvest.</span></div>
+    </section>
+    <section class="login-panel" aria-labelledby="login-title">
+      <div class="login-panel-top"><span class="role-icon">👨‍🌾</span><a href="index.html">← Back to role selection</a></div>
+      <div class="login-heading"><span class="eyebrow">Farmer access</span><h2 id="login-title">Welcome back</h2><p>Use your mobile number or Farmer ID to continue.</p></div>
+      <form class="login-form" novalidate>
+        <label for="loginIdentity">Mobile number or Farmer ID</label>
+        <input id="loginIdentity" name="identity" type="text" autocomplete="username" placeholder="e.g. 98290 11223" required>
+        <p class="form-error" role="alert"></p>
+        <button class="login-submit" type="submit">Continue as Farmer <span>→</span></button>
+      </form>
+      <div class="demo-access"><span>Demo access</span><strong>Ramesh Kumar · RJ-JPR-4471</strong><button type="button" data-demo>Use demo account</button></div>
+      <p class="login-footnote">By continuing, you agree to use this prototype for demonstration only.</p>
+    </section>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
